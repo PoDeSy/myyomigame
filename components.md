@@ -7,4 +7,5 @@ Type|QTY|Color|Image
 ---|---|---|---
 {{component1.md}}
 
+hello
 
