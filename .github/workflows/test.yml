@@ -2,10 +2,10 @@ name: My Workflow
 on: [workflow_dispatch]
 jobs:
   build:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v2
-    - name: Find and Replace
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Find and Replace
       uses: jacobtomlinson/gha-find-replace@master
       with: 
         find: "hello"
