@@ -1,2 +1,3 @@
 Pawn|2|player colors|![image](component1.png)
 hello
+hello
