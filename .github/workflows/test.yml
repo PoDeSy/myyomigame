@@ -22,7 +22,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-  - name: Find and Replace
-  uses: jacobtomlinson/gha-find-replace@0.1.3
-  find: "hello"
-  replace: "world"
+     - uses: actions/checkout@v2
+     - name: Find and Replace
+       uses: jacobtomlinson/gha-find-replace@0.1.3
+       find: "hello"
+       replace: "world"
