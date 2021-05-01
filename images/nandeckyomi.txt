@@ -1,0 +1,15 @@
+'myyomigame nandeck script
+
+BORDER=RECTANGLE
+UNIT=INCH
+PAGE=8.5,11,PORTRAIT,HV
+DPI=300
+CARDSIZE=2.5,3.5
+
+LINK=myyomigame.csv
+
+<topbanner>=.125,.125,2.25,.375
+
+FONT = Arial, 24, , #000000
+
+TEXT = 1-54, [name], <topbanner, TS, 0>, CENTER, CENTER
