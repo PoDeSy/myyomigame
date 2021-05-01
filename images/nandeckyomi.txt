@@ -1,4 +1,4 @@
-'myyomigame nandeck script
+' myyomigame nandeck script
 
 BORDER=RECTANGLE
 UNIT=INCH
@@ -8,8 +8,14 @@ CARDSIZE=2.5,3.5
 
 LINK=myyomigame.csv
 
-<topbanner>=.125,.125,2.25,.375
+<nameframe>=4%,3.57%,60%,10.71%
+<classframe>=4%,3.57%,12%,10.71%
+<costframe>=64%,3.57%,12%,10.71%
+<imageframe>=4%,14.28%,72%,39.27%
+<gemframe>=4%,85.68%,72%,10.7%
 
-FONT = Arial, 24, , #000000
+htmlfont=fnt,Arial,16,,#000000,justify
+htmltext=1-54,[name],<nameframe>,#FFFFFF,0,EF,100,fnt
 
-TEXT = 1-54, [name], <topbanner, TS, 0>, CENTER, CENTER
+' TEXT = 1-54, [name], <nameframe, TS, 0>, CENTER, CENTER
+TEXT = 1-54, [class], <classframe, TS, 0>, CENTER, CENTER
