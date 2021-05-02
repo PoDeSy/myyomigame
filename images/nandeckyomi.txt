@@ -8,14 +8,20 @@ CARDSIZE=2.5,3.5
 
 LINK=myyomigame.csv
 
-<nameframe>=4%,3.57%,60%,10.71%
-<classframe>=4%,3.57%,12%,10.71%
-<costframe>=64%,3.57%,12%,10.71%
-<imageframe>=4%,14.28%,72%,39.27%
-<gemframe>=4%,85.68%,72%,10.7%
+<nameframe>=20%,3.57%,60%,10.71%
+<hexframe>=5%,3.57%,15%,10.71%
+<classframe>=7%,3.57%,12%,10.71%
+<costframe>=80%,3.57%,15%,7.14%
+<imageframe>=5%,14.28%,90%,39.27%
+<powerframe>=5%,57.12%,90%,24.99%
+<gemframe>=5%,85.68%,90%,10.7%
 
-htmlfont=fnt,Arial,16,,#000000,justify
-htmltext=1-54,[name],<nameframe>,#FFFFFF,0,EF,100,fnt
-
-' TEXT = 1-54, [name], <nameframe, TS, 0>, CENTER, CENTER
-TEXT = 1-54, [class], <classframe, TS, 0>, CENTER, CENTER
+font=Arial,16,TF,#000000
+text=1-54,[name],<nameframe>,center,top
+Polygon=1-54,<hexframe>,6,30,#000000,EMPTY,.015
+text=1-54,[class],<classframe>,center,center
+ellipse=1-54,<costframe>,#000000,EMPTY,.015
+text=1-54,[cost],<costframe>,center,center
+rectangle=1-54,<imageframe>,#000000,EMPTY,.015
+rectangle=1-54,<powerframe>,#000000,EMPTY,.015
+rectangle=1-54,<gemframe>,#000000,EMPTY,.015
