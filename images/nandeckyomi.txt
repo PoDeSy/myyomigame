@@ -14,10 +14,14 @@ LINK=myyomigame.csv
 <costframe>=80%,3.57%,15%,7.14%
 <imageframe>=5%,14.28%,90%,39.27%
 <powerframe>=5%,57.12%,90%,24.99%
-<gemframe>=5%,85.68%,90%,10.7%
+<gemframe>=5%,85.68%,90%,10.71%
+
+<battlefieldnameframe>=5%,3.57%,15%,92.86%
+<batfieldimgframe>=20%,3.57%,60%,92.86% 
+<battlefieldawardframe>=80%,3.57%,15%,92.86%
 
 font=Arial,16,TF,#000000
-text=1-54,[name],<nameframe>,center,top
+text=1-54,[name],<nameframe>,center, center
 Polygon=1-54,<hexframe>,6,30,#000000,EMPTY,.015
 text=1-54,[class],<classframe>,center,center
 ellipse=1-54,<costframe>,#000000,EMPTY,.015
@@ -25,3 +29,10 @@ text=1-54,[cost],<costframe>,center,center
 rectangle=1-54,<imageframe>,#000000,EMPTY,.015
 rectangle=1-54,<powerframe>,#000000,EMPTY,.015
 rectangle=1-54,<gemframe>,#000000,EMPTY,.015
+
+text=55-60,[name],<battlefieldnameframe,BS,0>,center,center,90
+rectangle=55-60,<batfieldimgframe>,#000000, Empty,.015
+text=55-60,[pray],<battlefieldawardframe,BS,1>center,center,90
+text=55-60,[buy],<battlefieldawardframe,BS,1>center,center,90
+text=55-60,[attack],<battlefieldawardframe,BS,1>center,center,90
+

@@ -1,4 +1,4 @@
-name,class,Cost,image,shields,time,terrain,single power,double power,gem,pray,buy,attack,,,
+name,class,Cost,image,shields,time,terrain,single power,double power,gem,pray-day,buy-day,attack-day,pray-night,buy-night,attack-night
 Brother Tracy,Priest,S,default,0,day,forest,Save 1 additional coin,Save 3 additional coins,red,,,,,,
 Brother Jacob,Priest,S,default,0,night,mountain,,,orange,,,,,,
 Brother Chris,Priest,S,default,1,day,plains,,,yellow,,,,,,
@@ -53,9 +53,7 @@ default,soldier,7,default,4,day,plains,,,yellow,,,,,,
 default,soldier,7,default,5,night,forest,,,green,,,,,,
 default,soldier,8,default,5,day,mountain,,,blue,,,,,,
 default,soldier,8,default,6,night,plains,,,purple,,,,,,
-Forest day,,,,,,,,,,Pray: 1,Buy: 2,Attack:3,,,
-Mountains day,,,,,,,,,,Pray: 2,Buy: 3,Attack:1,,,
-Plains day,,,,,,,,,,Pray: 3,Buy:1,Attack:2,,,
-Forest Night,,,,,,,,,,,,,,,
-Mountains Night,,,,,,,,,,,,,,,
-Plains Night,,,,,,,,,,,,,,,
+Forest,,,,,,,,,,1,2,1,3,2,3
+Mountains,,,,,,,,,,2,4,3,2,1,1
+Plains,,,,,,,,,,3,3,2,1,1,2
+,,,,,,,,,,,,,,,
