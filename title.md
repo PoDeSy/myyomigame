@@ -1,1 +1,1 @@
-- [ ] Name Your Game
+MyYomiGame
