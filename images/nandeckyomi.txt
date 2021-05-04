@@ -30,7 +30,7 @@ rectangle=1-54,<imageframe>,#000000,EMPTY,.015
 rectangle=1-54,<powerframe>,#000000,EMPTY,.015
 rectangle=1-54,<gemframe>,#000000,EMPTY,.015
 
-text=55-60,[battlename],<battlefieldnameframe,BS,0>,center,center,270
+text=55-60,[battlename],<battlefieldnameframe,BS,0>,center,center,180
 rectangle=55-60,<batfieldimgframe>,#000000, Empty,.015
 text=55-60,[pray],<battlefieldawardframe,BS,1>center,center
 text=55-60,[buy],<battlefieldawardframe,BS,1>center,center
