@@ -15,7 +15,12 @@ LINK=myyomigame.csv
 <imageframe>=5%,14.28%,90%,39.27%
 <powerframe>=5%,57.12%,90%,24.99%
 <gemframe>=5%,85.68%,90%,10.71%
-
+<gemo>=5%,85.68%,15%,10.71%
+<gemy>=20%,85.68%,15%,10.71%
+<gemg>=35%,85.68%,15%,10.71%
+<gemb>=50%,85.68%,15%,10.71%
+<gemp>=65%,85.68%,15%,10.71%
+<gemr>=80%,85.68%,15%,10.71%
 <battlefieldnameframe>=5%,3.57%,15%,92.86%
 <batfieldimgframe>=20%,3.57%,60%,92.86% 
 <battlefieldawardframe>=80%,3.57%,15%,92.86%
@@ -29,10 +34,29 @@ text=1-54,[cost],<costframe>,center,center
 rectangle=1-54,<imageframe>,#000000,EMPTY,.015
 rectangle=1-54,<powerframe>,#000000,EMPTY,.015
 rectangle=1-54,<gemframe>,#000000,EMPTY,.015
+if=[gem]="orange"
+  text=1-54,"O",<gemo>,center,center
+endif
+if=[gem]="yellow"
+  text=1-54,"Y",<gemy>,center,center
+endif
+if=[gem]="green"
+  text=1-54,"G",<gemg>,center,center
+endif
+if=[gem]="blue"
+  text=1-54,"B",<gemb>,center,center
+endif
+if=[gem]="purple"
+  text=1-54,"P",<gemp>,center,center
+endif
+if=[gem]="red"
+  text=1-54,"R",<gemr>,center,center
+endif
 
-text=55-60,[battlename],<battlefieldnameframe,BS,0>,center,center,180
+font=Arial,16,T,#000000
+text=55-60,[battlename],5%,3.57%,15%,92.86%,center,center,-90
 rectangle=55-60,<batfieldimgframe>,#000000, Empty,.015
-text=55-60,[pray],<battlefieldawardframe,BS,1>center,center
-text=55-60,[buy],<battlefieldawardframe,BS,1>center,center
-text=55-60,[attack],<battlefieldawardframe,BS,1>center,center
+text=55-60,[pray],<battlefieldawardframe,BS,1>,center,center,-90
+text=55-60,[buy],<battlefieldawardframe,BS,1>,center,center,-90
+text=55-60,[attack],<battlefieldawardframe,BS,1>,center,center,-90
 
