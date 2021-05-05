@@ -10,7 +10,8 @@ LINK=myyomigame.csv
 
 <nameframe>=20%,3.57%,60%,10.71%
 <hexframe>=5%,3.57%,15%,10.71%
-<classframe>=7%,3.57%,12%,10.71%
+<classframe>=7%,3.57%,12%,6%
+<rankframe>=7%,10%,12%,6%
 <costframe>=80%,3.57%,15%,7.14%
 <imageframe>=5%,14.28%,90%,39.27%
 <powerframe>=5%,57.12%,90%,24.99%
@@ -29,6 +30,7 @@ font=Arial,16,TF,#000000
 text=1-54,[name],<nameframe>,center, center
 Polygon=1-54,<hexframe>,6,30,#000000,EMPTY,.015
 text=1-54,[class],<classframe>,center,center
+text=1-54,[rank],<rankframe>,center,center
 ellipse=1-54,<costframe>,#000000,EMPTY,.015
 text=1-54,[cost],<costframe>,center,center
 rectangle=1-54,<imageframe>,#000000,EMPTY,.015
