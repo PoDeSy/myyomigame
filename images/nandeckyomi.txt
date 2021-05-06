@@ -9,9 +9,9 @@ CARDSIZE=2.5,3.5
 LINK=myyomigame.csv
 
 <nameframe>=20%,3.57%,60%,10.71%
-<hexframe>=5%,3.57%,15%,10.71%
-<classframe>=7%,3.57%,12%,6%
-<rankframe>=7%,10%,12%,6%
+<hexframe>=4.5%,3%,17%,12%
+<classframe>=7%,4%,12%,6%
+<rankframe>=7%,8.5%,12%,6%
 <costframe>=80%,3.57%,15%,7.14%
 <imageframe>=5%,14.28%,90%,39.27%
 <powerframe>=5%,57.12%,90%,24.99%
