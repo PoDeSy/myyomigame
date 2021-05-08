@@ -1,3 +1,3 @@
-- [ ] Outline a full game turn
-### {{turnstep1.md}}  
-### {{turnstep2.md}}
+- [ ] Outline a full game round
+### {{phase1.md}}  
+### {{phase2.md}}

@@ -8,9 +8,9 @@
 {{setup.md}}  
 ## How to Play
 {{roundstructure.md}}  
-## Turn Overview
+## Phase Overview
 {{turnoverview.md}}  
-## A Turn in Detail
+## Phases in Detail
 {{turndetails.md}}  
 ## Ending a Turn
 {{endturn.md}} 
@@ -18,3 +18,5 @@
 {{endround.md}} 
 ## At  the End of the Game 
 {{endgame.md}}  
+## Playtests
+{{playtest.md}}
