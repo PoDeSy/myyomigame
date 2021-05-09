@@ -26,6 +26,7 @@ LINK=myyomigame.csv
 <batfieldimgframe>=20%,3.57%,60%,92.86% 
 <battlefieldawardframe>=80%,3.57%,15%,92.86%
 
+image=1-54,"C:\Users\bryceadmn\Documents\texture\FrbkDlU.jpg",0,0,100%,100%
 font=Arial,16,TF,#000000
 text=1-54,[name],<nameframe>,center, center
 Polygon=1-54,<hexframe>,6,30,#000000,EMPTY,.015
